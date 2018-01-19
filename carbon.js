@@ -1,4 +1,4 @@
-~function(win) {
+!function(win) {
     function downloadSVG() {
         if (!document.querySelector('#yetone-dom2img')) {
             var s = document.createElement('script');
