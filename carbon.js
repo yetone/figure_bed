@@ -1,5 +1,6 @@
 !function(win) {
     function downloadSVG() {
+
         if (!document.querySelector('#yetone-dom2img')) {
             var s = document.createElement('script');
             s.id = 'yetone-dom2img';
@@ -9,6 +10,7 @@
         } else {
             download();
         }
+
         function download() {
             module.exports.toSvg(container).then(function(dataUrl) {
                 dataUrl = dataUrl.substr(dataUrl.indexOf('<svg'));
