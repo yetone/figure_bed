@@ -1,1 +1,0 @@
-nvim_screenshots/* filter=lfs diff=lfs merge=lfs -text
